@@ -1,0 +1,45 @@
+[project]
+name = "hr-policy-rag-questions"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "anik-chowdhury-002", email = "chowdhuryanik027@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "ddgs>=9.16.0",
+    "email-validator>=2.3.0",
+    "faiss-cpu>=1.15.1",
+    "google-generativeai>=0.8.6",
+    "huggingface-hub>=1.33.0",
+    "ipykernel>=7.4.0",
+    "langchain>=1.4.5",
+    "langchain-chroma>=1.1.0",
+    "langchain-classic>=1.0.8",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.10",
+    "langchain-experimental>=0.4.2",
+    "langchain-google-genai>=4.4.1",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.3",
+    "langchain-text-splitters>=1.1.3",
+    "langgraph>=1.2.15",
+    "numpy>=2.5.4",
+    "pydantic>=2.14.1",
+    "pypdf>=6.20.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "sentence-transformers>=6.1.0",
+    "transformers>=5.19.0",
+    "typing-extensions>=4.16.0",
+    "wikipedia>=1.4.0",
+]
+
+[project.scripts]
+hr-policy-rag-questions = "hr_policy_rag_questions:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

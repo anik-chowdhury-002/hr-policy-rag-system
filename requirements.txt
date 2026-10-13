@@ -1,0 +1,60 @@
+# ============================================================
+# LangChain & LangGraph Ecosystem
+# ============================================================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-experimental
+langchain-classic
+langgraph
+
+# ============================================================
+# LLM Providers & Integrations
+# ============================================================
+langchain-google-genai
+google-generativeai
+langchain-groq
+
+# ============================================================
+# Hugging Face (Embeddings & Local Models)
+# ============================================================
+langchain-huggingface
+transformers
+huggingface-hub
+
+# ============================================================
+# Vector Database & Retrieval
+# ============================================================
+langchain-chroma
+chromadb
+
+# ============================================================
+# Web Search & External Tools
+# ============================================================
+ddgs
+wikipedia
+
+# ============================================================
+# Machine Learning & Data Science
+# ============================================================
+numpy
+scikit-learn
+
+# ============================================================
+# Configuration & Environment
+# ============================================================
+python-dotenv
+
+# ============================================================
+# Validation, Typing & Jupyter
+# ============================================================
+pydantic
+email-validator
+typing-extensions
+ipykernel
+
+
+sentence-transformers
+pypdf
+faiss-cpu
